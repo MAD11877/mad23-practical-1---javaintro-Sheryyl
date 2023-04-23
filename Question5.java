@@ -14,7 +14,7 @@ public class Question5
     int mode = 0;
 
     for (int i = 0; i < numIntegers; i++) {
-        System.out.print("Enter integer #" + (i+1) + ": ");
+        //System.out.print("Enter integer #" + (i+1) + ": ");
         integers[i] = in.nextInt();
     }
         for (int i = 0; i < numIntegers; i++) {
