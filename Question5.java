@@ -13,23 +13,28 @@ public class Question5
     int maxCount = 0;
     int mode = 0;
 
-    for (int i = 0; i < numIntegers; i++) {
+    for (int i = 0; i < numIntegers; i++) 
+    {
         //System.out.print("Enter integer #" + (i+1) + ": ");
         integers[i] = in.nextInt();
     }
-        for (int i = 0; i < numIntegers; i++) {
+        
+    for (int i = 0; i < numIntegers; i++) 
+    {
         int count = 0;
-        for (int j = 0; j < numIntegers; j++) {
-            if (integers[j] == integers[i]) {
+        for (int j = 0; j < numIntegers; j++) 
+        {
+            if (integers[j] == integers[i]) 
+            {
                 count++;
             }
         }
-        if (count > maxCount) {
+        if (count > maxCount) 
+        {
             maxCount = count;
             mode = integers[i];
         }
     }
-
     System.out.println(mode);
   }
 }

@@ -11,6 +11,6 @@ public class Question3
 
     int result = number * number;
 
-    System.out.println(number, " and " + result);
+    System.out.println(number + " and " + result);
   }
 }
